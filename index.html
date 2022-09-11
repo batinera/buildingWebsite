@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="./assets/css/style.css" rel="stylesheet">
     <title>Login</title>
 </head>
 <body>
@@ -12,8 +12,8 @@
     <main class="main-login">
 
         <div class="left-login">
-            <h1>Faça login<br>E entre para o nosso time</h1>
-            <img src="./assets/people-flying-animate.svg" alt="animation" class="left-login-img" href="index.html">
+            <h1>Faça login para<br>acessar sua conta</h1>
+            <img src="./assets/people-flying-animate.svg" alt="animation" class="left-login-img">
         </div>
 
         <form>
@@ -22,13 +22,17 @@
                     <h1>LOGIN</h1>
                     <div class="textfield">
                         <label for="email">Email</label>
-                        <input type="email" name="email" placeholder="Email" required="required">
+                        <input type="email" name="email" placeholder="Email" required>
                     </div>
                     <div class="textfield">
                         <label for="password">Senha</label>
-                        <input type="password" name="password" placeholder="Senha" required="required">
+                        <input type="password" name="password" placeholder="Senha" required>
                     </div>
                     <button type="submit" class="btn-login">Login</button>
+
+                    <div class="separator"></div>
+
+                    <button type="submit" class="btn-registration">Crie sua conta</button>
                 </div>
             </div>
         </form>

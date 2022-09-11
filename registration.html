@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style-registration.css">
+    <title>Abra uma conta</title>
+</head>
+<body>
+    
+    <main class="main-registration">
+
+        <div class="left-registration">
+            <h1>Abra sua conta<br>E entre para o nosso time</h1>
+            <img src="./assets/people-flying-animate.svg" alt="animation" class="left-registration-img">
+        </div>
+
+        <form>
+            <div class="right-registration">
+                <div class="card-registration">
+                    <h1>CADASTRO</h1>
+                    <div class="textfield">
+                        <label for="name"></label>
+                        <input type="text" name="name" placeholder="Nome" required>
+                    </div>
+                    <div class="textfield">
+                        <label for="sobrenome"></label>
+                        <input type="text" name="sobrenome" placeholder="Sobrenome" required>
+                    </div>
+                    <div class="textfield">
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="textfield">
+                        <label for="password"></label>
+                        <input type="password" name="password" placeholder="Senha" required>
+                    </div>
+                    <div class="textfield">
+                        <label for="date">Data de nascimento</label>
+                        <input type="date" name="date" required>
+                    </div>
+                    <div class="genders" required>
+                        <input type="radio" name="gender" value="gender" id="radio-masculine">
+                        <label for="radio-masculine">Masculino</label>
+                        <input type="radio" name="gender" value="gender" id="radio-feminine">
+                        <label for="radio-feminine">Feminino</label>
+                    </div>
+
+                    <p>
+                        Ao clicar em "Inscreva-se", você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser
+                    </p>
+
+                    <button type="submit" class="btn-registration">Inscreva-se</button>
+
+                </div>
+            </div>
+        </form>
+
+    </main>
+
+</body>
+</html>
